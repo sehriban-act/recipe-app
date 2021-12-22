@@ -1,15 +1,15 @@
 
+import AppRouter from './router/AppRouter';
+import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
-import AppRouter from './router/AppRouter';
 
 
 function App() {
   return (
     <div className="App">
-      < className="App-header">
-    <Home/>
-      <AppRouter/>
+           <AppRouter/>
+      
     </div>
   );
 }

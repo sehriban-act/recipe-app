@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {Hamburger, Logo,MenuLink,Nav,Menu} from "./NavbarStyles";
+import {Hamburger, Logo,MenuLink,Nav,Menu} from "./NavbarStyle";
 const Navbar = () => {
     const [isOpen,setIsOpen]=useState(false);
     return (
