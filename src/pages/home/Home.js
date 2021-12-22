@@ -18,6 +18,7 @@ const url=`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${A
 const getData =async()=>{
   if (query!=="") {
     const result=await axios.get(url)
+    console.log(result.data.hits);
     if(result.data.hits){
       console.log("no food a this name");
     }
